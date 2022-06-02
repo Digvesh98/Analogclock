@@ -1,0 +1,36 @@
+#clockContainer{
+  position: relative;
+  background:url(clock.png) no-repeat;
+  width: 30vw;
+  height: 30vw;
+  margin: auto;
+  padding: inherit;
+}
+
+#Hour ,#Minute ,#Seconds{
+position: absolute;
+background: black;
+border-radius: 12px;
+transform-origin: bottom;
+}
+
+#Hour{
+width: 5px;
+height: 65px;
+top: 84px;
+left: 149px;
+}
+
+#Minute{
+width: 5px;
+height: 87px;
+top: 60px;
+left: 149px;
+}
+
+#Seconds{
+width: 5px;
+height: 104px;
+top: 44px;
+left: 149px;
+}
